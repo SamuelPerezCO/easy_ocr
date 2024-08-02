@@ -19,8 +19,8 @@ def pdf_page_screenshot(pdf_path, page_number, output_image_path, zoom_factor=2)
     img.save(output_image_path, "PNG")
 
 # Uso de la función
-pdf_path = "/home/samuelperez/Codes/easy_ocr/Informe___El_futuro_de_la_banca_minorista_2030_.pdf"
-page_number = 17  # Número de la página que deseas capturar
+pdf_path = "/home/samuelperez/Codes/easy_ocr/foo.pdf"
+page_number = 1  # Número de la página que deseas capturar
 output_image_path = "pantallazo.png"
 zoom_factor = 3  # Factor de zoom para aumentar la resolución
 

@@ -25,7 +25,7 @@ def extract_text_from_pdf(pdf_path, zoom_factor=2):
     return texts
 
 # Uso de la función
-pdf_path = "ruta/al/archivo.pdf"
+pdf_path = "/home/samuelperez/Codes/easy_ocr/pantallazo.png"
 texts = extract_text_from_pdf(pdf_path)
 
 # Imprimir el texto extraído de cada página
